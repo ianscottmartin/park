@@ -1,0 +1,99 @@
+:root {
+  --bg: #282c34;
+  --header: #fff;
+  --link: #61dafb;
+  --text: hsla(0, 0%, 100%, 0.88);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c82644;
+
+  /* Center everything horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage,
+.login-form,
+.login {
+  text-align: center;
+}
+
+.homepage img {
+  width: 40%;
+}
+
+img {
+  width: 80%;
+}
+
+#park-list {
+  text-align: center;
+}
+
+.park-card {
+  width: auto;
+  background-color: #11bd3cb6;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.review-card {
+  background-color: #abdc43;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.new-park,
+.new-review {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.navlink {
+  margin: 30px;
+  text-decoration: none;
+  color: #90a530;
+}
+
+.user-card,
+.user-reviews-card {
+  text-align: center;
+  background-color: #687239;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.user-card img,
+.user-reviews-card img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+#logout {
+  margin-right: 20px;
+}
