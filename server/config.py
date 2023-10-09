@@ -18,7 +18,8 @@ from flask_bcrypt import Bcrypt
 
 # Instantiate app, set attributes
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY")
+# app.secret_key = os.environ.get("SECRET_KEY")
+app.secret_key = b"\xa9\x19^\x81b\xdb\xd4_ZIr'\xc3F>\xb4"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///app.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.json.compact = False

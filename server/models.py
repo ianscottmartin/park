@@ -59,10 +59,10 @@ class Park(db.Model, SerializerMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     destination = db.Column(db.String(100), nullable=False, unique=True)
-    approximate_cost = db.Column(db.Integer)
+    entry_fee = db.Column(db.Integer)
     description = db.Column(db.String(500))
 
     reviews = db.relationship("Review", backref="park")
 
     def __repr__(self):
-        return f"Park: {self.destination} | Approximate Cost: {self.approximate_cost} | Description: {self.description}"
+        return f"Park: {self.destination} | Approximate Cost: {self.entry_fee} | Description: {self.description}"

@@ -48,52 +48,52 @@ if __name__ == "__main__":
         parks = [
             Park(
                 destination="Great Sand Dunes",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Yosemite",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Canyon Lands",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Goblin Valley",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Grand Canyon",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Arches National Park",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Red Forest",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Bryce",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Zion",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
             Park(
                 destination="Rocky Mountain National Park",
-                approximate_cost=randint(100, 4000),
+                entry_fee=randint(100, 4000),
                 description=fake.paragraph(nb_sentences=4),
             ),
         ]
